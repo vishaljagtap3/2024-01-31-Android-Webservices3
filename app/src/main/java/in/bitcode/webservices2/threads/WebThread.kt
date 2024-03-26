@@ -1,8 +1,10 @@
-package `in`.bitcode.webservices2
+package `in`.bitcode.webservices2.threads
 
 import android.os.AsyncTask
 import android.os.Handler
 import android.os.Message
+import `in`.bitcode.webservices2.WebUtil
+import `in`.bitcode.webservices2.models.User
 
 class WebThread(
     private val handler: Handler

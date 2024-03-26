@@ -5,7 +5,7 @@
     <data>
         <variable
             name="user"
-            type="in.bitcode.webservices2.User" />
+            type="in.bitcode.webservices2.models.User" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

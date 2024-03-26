@@ -1,8 +1,8 @@
-package `in`.bitcode.webservices2
+package `in`.bitcode.webservices2.models
 
 import com.google.gson.annotations.SerializedName
 
-data class User(
+data class UserDetails(
     val id : Int,
     val email : String,
     @SerializedName("first_name")

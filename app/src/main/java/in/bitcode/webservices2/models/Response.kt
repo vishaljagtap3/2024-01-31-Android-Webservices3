@@ -1,6 +1,7 @@
-package `in`.bitcode.webservices2
+package `in`.bitcode.webservices2.models
 
 import com.google.gson.annotations.SerializedName
+import `in`.bitcode.webservices2.models.User
 
 data class Response(
     val page : Int,
